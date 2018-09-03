@@ -51,23 +51,23 @@ module.exports.custom = {
   * (https://app.mailgun.com/app/domains)                                   *
   *                                                                         *
   **************************************************************************/
-  // mailgunDomain: 'sandboxaa1234fake678.mailgun.org',
-  // mailgunSecret: 'key-fakeb183848139913858e8abd9a3',
+  mailgunDomain: 'sandbox53ac38aa10c74b31b32e464d5f7ad0b2.mailgun.org',
+  mailgunSecret: '34454cda51db9844e64c0d3967eb2096-f45b080f-86e0eb89',
   //--------------------------------------------------------------------------
   // /\  Configure these to enable support for automated emails.
   // ||  (Important for password recovery, verification, contact form, etc.)
   //--------------------------------------------------------------------------
 
   // The sender that all outgoing emails will appear to come from.
-  fromEmailAddress: 'noreply@example.com',
-  fromName: 'The Ration Team',
+  fromEmailAddress: 'noreply@tutorpoint.org',
+  fromName: 'The Tutorpoint Team',
 
   // Email address for receiving support messages & other correspondences.
-  internalEmailAddress: 'support+development@example.com',
+  internalEmailAddress: 'support+development@tutorpoint.org',
 
   // Whether to require proof of email address ownership any time a new user
   // signs up, or when an existing user attempts to change their email address.
-  verifyEmailAddresses: false,
+  verifyEmailAddresses: true,
 
   /**************************************************************************
   *                                                                         *
@@ -76,8 +76,8 @@ module.exports.custom = {
   * (https://dashboard.stripe.com/account/apikeys)                          *
   *                                                                         *
   **************************************************************************/
-  // stripePublishableKey: 'pk_test_Zzd814nldl91104qor5911gjald',
-  // stripeSecret: 'sk_test_Zzd814nldl91104qor5911gjald',
+  stripePublishableKey: 'pk_live_vqDegoTJ7WyXtGiwz8uQH326',
+  stripeSecret: 'sk_live_5SnsYKxZo5ko7tG7Dt1zyyea',
   //--------------------------------------------------------------------------
   // /\  Configure these to enable support for billing features.
   // ||  (Or if you don't need billing, feel free to remove them.)
